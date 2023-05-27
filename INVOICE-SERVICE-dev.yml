@@ -4,7 +4,7 @@ spring:
   data:
     mongodb:
       database: invoicedb-t1
-      uri: mongodb://mongodb_invoice:27018
+      uri: mongodb://localhost:27018
       host: mongodb_invoice
       port: 27018
   kafka:
