@@ -19,7 +19,7 @@ eureka:
 server:
   port: 9010
 
-managment:
+management:
   endpoints:
     web:
       exposure:

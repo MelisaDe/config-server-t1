@@ -32,7 +32,7 @@ eureka:
 server:
   port: 0
 
-managment:
+management:
   endpoints:
     web:
       exposure:
