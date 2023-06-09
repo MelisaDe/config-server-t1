@@ -1,9 +1,14 @@
 spring:
   application:
     name: PAYMENT-SERVICE
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:8080/realms/RentACarMicroservice/protocol/openid-connect/certs
   datasource:
     username: postgres
-    password: '1'
+    password: "1"
     url: jdbc:postgresql://localhost:5433/paymentdb-t1
   jpa:
     properties:
